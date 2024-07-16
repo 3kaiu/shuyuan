@@ -1,9 +1,10 @@
 let json = JSON.parse($response.body)
-
-if (json.data && json.data.total) {
-	delete json.data.total
+//绿色商城
+if (json.item && json.item.length > 1) {
+	delete json.item[0]
 }
-if (json.data && json.data.data) {
-	delete json.data.data
+//分享应用
+if (json.items && json.items.length > 3) {
+	delete json.items[3]
 }
 $done({ body: JSON.stringify(json) })
