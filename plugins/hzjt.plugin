@@ -9,7 +9,7 @@
 ^https:\/\/pgc-consumer\.ibuscloud\.com\/web\/pgc\/types\?.* reject-dict
 
 [Script]
-http-response ^https:\/\/app\.ibuscloud\.com\/v2\/myHomeIcon\/getMyHomeIconList\?.*$ script-path = https://raw.githubusercontent.com/3kaiu/shuyuan/main/scripts/hangzhou_jiaotong_ad.js, requires-body = true, tag = 精简我的页面
+http-response ^https:\/\/app\.ibuscloud\.com\/v2\/myHomeIcon\/getMyHomeIconList\?.* script-path = https://raw.githubusercontent.com/3kaiu/shuyuan/main/scripts/hangzhou_jiaotong_ad.js, requires-body = true, tag = 精简我的页面
 
 [Mitm]
 hostname = app.ibuscloud.com,pgc-consumer.ibuscloud.com,city-life-consumer.ibuscloud.com
