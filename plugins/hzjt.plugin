@@ -5,9 +5,12 @@
 #!date = 2024-07-17 03:14:32
 
 [Rewrite]
-^https:\/\/city-life-consumer\.ibuscloud\.com\/web\/ibus\/page-home$ reject-dict #顶上横幅
-^https:\/\/pgc-consumer\.ibuscloud\.com\/web\/pgc\/contents\/list\?.* reject-dict #类型内容
-^https:\/\/pgc-consumer\.ibuscloud\.com\/web\/pgc\/types\?.*$ reject-dict #选择内容
+#顶上横幅
+^https:\/\/city-life-consumer\.ibuscloud\.com\/web\/ibus\/page-home$ reject-dict
+#类型内容
+^https:\/\/pgc-consumer\.ibuscloud\.com\/web\/pgc\/contents\/list\?.* reject-dict
+#选择内容
+^https:\/\/pgc-consumer\.ibuscloud\.com\/web\/pgc\/types\?.*$ reject-dict
 
 [Mitm]
 hostname = *.ibuscloud.com
