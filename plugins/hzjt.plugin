@@ -1,16 +1,12 @@
 #!name = 杭州公共交通去广告
 #!desc = 移除碳生活页面广告。
-#!openUrl = https://apps.apple.com/app/id733689509
 #!author = 3kaiu
 #!date = 2024-07-17 03:14:32
 
 [Rewrite]
-#顶上横幅
 ^https:\/\/city-life-consumer\.ibuscloud\.com\/web\/ibus\/page-home$ reject-dict
-#类型内容
 ^https:\/\/pgc-consumer\.ibuscloud\.com\/web\/pgc\/contents\/list\?.* reject-dict
-#选择内容
-^https:\/\/pgc-consumer\.ibuscloud\.com\/web\/pgc\/types\?.*$ reject-dict
+^https:\/\/pgc-consumer\.ibuscloud\.com\/web\/pgc\/types\?.* reject-dict
 
 [Mitm]
 hostname = *.ibuscloud.com
