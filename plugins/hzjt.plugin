@@ -1,5 +1,5 @@
 [Script]
-http-response ^https:\/\/pgc-consumer\.ibuscloud\.com\/web\/pgc\/contents\/list\?pageSize=\d+&pageNo=\d+$ script-path = , requires-body = true, tag = 移除杭州公共交通碳生活广告
+http-response ^https:\/\/pgc-consumer\.ibuscloud\.com\/web\/pgc\/contents\/list\?pageSize=\d+&pageNo=\d+$ script-path = https://github.com/3kaiu/shuyuan/blob/main/scripts/hangzhou_jiaotong_ad.js, requires-body = true, tag = 移除杭州公共交通碳生活广告
 
 [Mitm]
 hostname = pgc-consumer.ibuscloud.com
