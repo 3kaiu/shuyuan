@@ -1,6 +1,6 @@
 let json = JSON.parse($response.body)
 //绿色商城
-if (json.item && json.item.length > 1) {
+if (json.item && json.item.length > 0) {
 	json.item[0].title = '商城'
 }
 //分享应用
