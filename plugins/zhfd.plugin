@@ -1,0 +1,11 @@
+#!name = 智慧房东去广告
+#!author = 3kaiu
+#!date = 2024-09-29 19:11:00
+
+[Rewrite]
+^https:\/\/api\.zhihuifangdong\.net\/core\/app\/activity\/appOpenAds$ reject-dict
+
+[Script]
+
+[Mitm]
+hostname = api.zhihuifangdong.net
