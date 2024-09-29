@@ -4,6 +4,7 @@
 
 [Rewrite]
 ^https:\/\/api\.zhihuifangdong\.net\/core\/app\/activity\/appOpenAds$ reject-dict
+^https:\/\/api\.zhihuifangdong\.net\/core\/app\/activity\/bannerPicMore$ reject-dict
 
 [Script]
 
