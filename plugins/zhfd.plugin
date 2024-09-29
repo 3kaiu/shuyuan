@@ -15,6 +15,16 @@
 ^https:\/\/api\.zhihuifangdong\.net\/core\/app\/bindCard\/getBindCardFailPop$ reject-dict
 ^https:\/\/api\.zhihuifangdong\.net\/core\/app\/bindCard\/riskBindCard$ reject-dict
 ^https:\/\/api\.zhihuifangdong\.net\/core\/app\/bindCard\/renterCheckBindCard$ reject-dict
+^https:\/\/api\.zhihuifangdong\.net\/core\/app\/bindCard\/auditCompany$ reject-dict
+
+^https:\/\/api\.zhihuifangdong\.net\/core\/renterOper\/renterBindOperPop$ reject-dict
+
+^https:\/\/api\.zhihuifangdong\.net\/core\/web\/bankCard\/judgeBankCard$ reject-dict
+
+^https:\/\/api\.zhihuifangdong\.net\/core\/app\/bindCard\/getWithdrawStaus$ reject-dict
+
+^https:\/\/api\.zhihuifangdong\.net\/core\/app\/bindCard\/getThirdPayStaus$ reject-dict
+^https:\/\/api\.zhihuifangdong\.net\/core\/app\/bindCard\/getPlatform$ reject-dict
 
 
 [Script]
