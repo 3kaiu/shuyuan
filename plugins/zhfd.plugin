@@ -5,6 +5,16 @@
 [Rewrite]
 ^https:\/\/api\.zhihuifangdong\.net\/core\/app\/activity\/appOpenAds$ reject-dict
 ^https:\/\/api\.zhihuifangdong\.net\/core\/app\/activity\/bannerPicMore$ reject-dict
+^https:\/\/api\.zhihuifangdong\.net\/core\/app\/activity\/clickPicMore$ reject-dict
+^https:\/\/api\.zhihuifangdong\.net\/core\/app\/activity\/clickPic$ reject-dict
+
+^https:\/\/api\.zhihuifangdong\.net\/core\/app\/billplan\/billPlanGroupByContract$ reject-dict
+^https:\/\/api\.zhihuifangdong\.net\/core\/app\/rentExt\/payIndexMoreGb$ reject-dict
+
+^https:\/\/api\.zhihuifangdong\.net\/core\/app\/bindCard\/getBindCardFailPop$ reject-dict
+^https:\/\/api\.zhihuifangdong\.net\/core\/app\/bindCard\/riskBindCard$ reject-dict
+^https:\/\/api\.zhihuifangdong\.net\/core\/app\/bindCard\/renterCheckBindCard$ reject-dict
+
 
 [Script]
 
